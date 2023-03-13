@@ -1,0 +1,16 @@
+
+#-------------Setup----------------
+
+import Ed
+
+Ed.EdisonVersion = Ed.V2
+
+Ed.DistanceUnits = Ed.CM
+Ed.Tempo = Ed.TEMPO_MEDIUM
+
+#--------Your code below-----------
+
+degreesToTurn = 120
+for x in range(3):
+    Ed.Drive(Ed.FORWARD, Ed.SPEED_5, 10)
+    Ed.Drive(Ed.SPIN_LEFT, Ed.SPEED_5, degreesToTurn)

@@ -1,0 +1,756 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Evaluation eines Robotersystems in der weiterführenden Schule</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/white_.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	<style>
+		ol {
+			counter-reset: item
+		}
+
+		ol li {
+			display: block
+		}
+
+		ol li:before {
+			content: counters(item, ".") ". ";
+			counter-increment: item
+		}
+	</style>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<img src="img/meet-edison-v2.png" width="auto" height="230">
+				<h2 class="r-fit-text">Evaluation eines Robotiksystems</h2>
+				<h2 class="r-fit-text">in der weiterführenden Schule</h2>
+			</section>
+			<section>
+				<h3>Übersicht</h3>
+				<ol>
+					<li>Einführung</li>
+					<li>Aktuelle Situation</li>
+					<ol>
+						<li>Unterrichtsansatz</li>
+						<li>Livedemo</li>
+					</ol>
+					<li>Evaluation</li>
+					<ol>
+						<li>Callystotest</li>
+						<li>Ergebnisse</li>
+						<li>Diskussion</li>
+					</ol>
+					<li>Fazit</li>
+				</ol>
+			</section>
+			<section>
+				<section>
+					<h1>1. Einführung</h1>
+
+				</section>
+				<section>
+					<h2>Computational Thinking (CT)</h2> ...rechnerisches Denken
+
+					Fähigkeiten für den MINT Bereichen
+					<aside class="notes">
+						Mathe
+						Informatik
+						Naturwissenschaften
+						Technik
+					</aside>
+				</section>
+				<!--
+				<section data-auto-animate>
+					<ul>
+						<li>Probleme so zu formulieren, dass sie mit Hilfe eines Computers gelöst werden können</li>
+					</ul>
+
+				</section>
+				<section data-auto-animate>
+					<ul>
+						<li>Probleme so zu formulieren, dass sie mit Hilfe eines Computers gelöst werden können</li>
+						<li>Daten logisch zu organisieren und zu analysieren</li>
+
+					</ul>
+				</section>
+				<section data-auto-animate>
+					<ul>
+						<li>Probleme so zu formulieren, dass sie mit Hilfe eines Computers gelöst werden können</li>
+						<li>Daten logisch zu organisieren und zu analysieren</li>
+						<li>Darstellung von Daten durch Abstraktion</li>
+					</ul>
+					<aside class="notes">
+						Darstellung -> mit Modelle und Simulationen
+					</aside>
+				</section>
+				<section data-auto-animate>
+					<ul>
+						<li>Probleme so zu formulieren, dass sie mit Hilfe eines Computers gelöst werden können</li>
+						<li>Daten logisch zu organisieren und zu analysieren</li>
+						<li>Darstellung von Daten durch Abstraktion</li>
+						<li>Automatisierung von Lösungen durch algorithmisches Denken</li>
+
+					</ul>
+					<aside class="notes">
+						algorithmisches denken -> eine Reihe von geordneten Schritten
+					</aside>
+				</section>
+				<section data-auto-animate>
+					<ul>
+						<li>Probleme so zu formulieren, dass sie mit Hilfe eines Computers gelöst werden können</li>
+						<li>Daten logisch zu organisieren und zu analysieren</li>
+						<li>Darstellung von Daten durch Abstraktion</li>
+						<li>Automatisierung von Lösungen durch algorithmisches Denken</li>
+						<li>Identifizierung, Analyse und Umsetzung von Lösungen </li>
+
+					</ul>
+					<aside class="notes">
+						Lösungen -> um die effizienteste und effektivste Kombination von Schritten und Ressourcen zu
+						erreichen
+					</aside>
+				</section>
+			-->
+				<section data-auto-animate>
+					<ul>
+						<li>Probleme so zu formulieren, dass sie mit Hilfe eines Computers gelöst werden können</li>
+						<li>Daten logisch zu organisieren und zu analysieren</li>
+						<li>Darstellung von Daten durch Abstraktion</li>
+						<li>Automatisierung von Lösungen durch algorithmisches Denken</li>
+						<li>Identifizierung, Analyse und Umsetzung von Lösungen </li>
+						<li>Verallgemeinerung und Übertragung eines Problemlösungsprozesses </li>
+					</ul>
+					<aside class="notes">
+						Darstellung -> mit Modelle und Simulationen
+						algorithmisches denken -> eine Reihe von geordneten Schritten
+						Lösungen -> um die effizienteste und effektivste Kombination von Schritten und Ressourcen zu
+						erreichen
+						Verallgemeinerung -> auf eine große Vielfalt von Problemen
+					</aside>
+				</section>
+				<section data-auto-animate>
+					<h2>CT in Lernplänen in Europa</h2>
+					<img data-id="ctinEu" src="img/ctInEuropa.png">
+					<aside class="notes">
+						Blau, Rot, Hellblau: CT in Lernplan integriert
+						Gelb: Pilotprojekte laufen
+						Grün: in Planung
+						Grau: Nicht teilgenommen
+
+						Wird in Zukunft in sehr vielen Bereichen wichtig
+					</aside>
+				</section>
+				<section data-auto-animate>
+
+					<img src="img/ctInEuropa3.png">
+					<img data-id="ctinEU" class="r-stretch" src="img/ctInEuropa2.png">
+					<aside class="notes">
+						Blau, Rot, Hellblau: CT in Lernplan integriert<br>
+						Gelb: Pilotprojekte laufen<br>
+						Grün: in Planung<br>
+						Grau: Nicht teilgenommen<br>
+
+						Wird in Zukunft in sehr vielen Bereichen wichtig
+					</aside>
+				</section>
+				<section>
+					<h2>Roboter für den Bildungsbereich</h2>
+					Einfacher Einstieg ins Lernen von Computational Thinking und Programmieren
+				</section>
+				<section>
+					<h2>Forschungsfragen</h2>
+					<ol>
+						<li>Verbessern sich die Fähigkeiten von Schüler*innen durch den Einsatz von Robotern im
+							Unterricht?</li>
+						<li>Ist der Einsatz von Bildungsrobotern nützlich für den Unterricht?</li>
+					</ol>
+				</section>
+			</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>2. Aktuelle Situation</h1>
+					<ul>
+						<li>Kein bundesweit einheitliches Modell</li>
+						<li>Föderales System: "Bildung ist Ländersache"</li>
+						<li>Ab Schuljahr 23/24 bundesweit schrittweise Einführung von Informatikunterricht</li>
+					</ul>
+				</section>
+				<section>
+					<h2>2. Aktuelle Situation</h2>
+					Modell in Niedersachsen:
+					<br> Berufliche Gymnasien
+					<ul>
+						<li>Vollzeitschule, Gymnasiale Oberstufe</li>
+						<li>Ziel: Abitur</li>
+						<li>Berufliche Bildung in Kombination mit allgemeinen Fächern</li>
+						<li>Fachrichtung Technik:</li>
+						<ul>
+							<li>Programmieren, Automatisierungstechnik, Netzwerktechnik, Datenbanken</li>
+						</ul>
+					</ul>
+				</section>
+				<section>
+					<h2>2.1. Unterrichtsansatz</h2>
+					Anforderungen an Roboter für den Unterrichtseinsatz:
+					<ul>
+						<li>Einsatz wie geliefert, keine Anpassungen nötig</li>
+						<li>Anschaffungspreis pro Einheit unter 100€</li>
+						<li>Einsetzbar für verschiedene Zielgruppen</li>
+						<li>Gute Dokumentation von Hard- & Software</li>
+						<li>Konkrete Empfehlungen für den Lehreinsatz</li>
+					</ul>
+				</section>
+				<section>
+					<h2>2.1 Unterrichtsansatz</h2>
+					<span style="text-align:left">Verwendung von Edison-Robotern</span>
+					<ul>
+						<li>Pädagogisches Konzept vorhanden</li>
+						<li>niedrigschwellige Entwicklungsumgebung vorhanden</li>
+						<li>Unterrichtsmaterialien frei nutzbar</li>
+						<li>Anschaffungspreis ca. 50€/Roboter</li>
+					</ul>
+					<img src="img/meet-edison-v2_.png" width="25%" align="right">
+				</section>
+				<section>
+					<h2>2.1 Unterrichtsansatz</h2>
+					<ul>
+						<li>Kennenlernen des Roboters mit Barcodes</li>
+						<li>Programmierung des Roboters</li>
+						<ul>
+							<li>Einfache Blocksprache "EdBlocks"</li>
+							<li>Komplexere Blocksprache "EdScratch"</li>
+							<li>Textbasierte Python-ähnliche Sprache "EdPy"</li>
+						</ul>
+					</ul>
+				</section>
+				<section>
+					<h2>2.1 Unterrichtsansatz</h2>
+					<ul>
+						<li>4 Unterrichtsstunden (je 90 Minuten)</li>
+						<li>Jeweils 1-2 Units / Unterrichtsstunde</li>
+						<li>2-3 Schüler*innen / Gruppe</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Unit 1-4</h2>
+					<ul>
+						<li>Kennenlernen des Roboters</li>
+						<li>Kennenlernen der Entwicklungsumgebung</li>
+						<li>Ansteuerung der Motoren</li>
+						<li>While-Schleife</li>
+						<li>Labyrinth fahren</li>
+						<li>Ausdrücke & Variablen</li>
+
+					</ul>
+				</section>
+				<section>
+					<h2>Unit 5-7</h2>
+					<ul>
+						<li>Tanzen mit dem Roboter</li>
+						<li>Geometrische Formen abfahren</li>
+						<li>For-Schleife</li>
+						<li>Reagieren auf Sensoreingaben</li>
+						<li>Hindernisserkennung</li>
+					</ul>
+				</section>
+				<!--
+				<section>
+					<h2>Unit 1</h2>
+					<ul>
+						<li>Kennenlernen des Roboters</li>
+						<li>ausprobieren von Barcodes</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Unit 2</h2>
+					<ul>
+						<li>Kennenlernen der Entwicklungsumgebung</li>
+						<li>Programme auf den Roboter laden</li>
+						<li>Vorwärts- & Rückwärtsfahren</li>
+						<li>While-Schleife</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Unit 3</h2>
+					<ul>
+						<li>Übung Motoransteuerung und While-Schleife</li>
+						<li>Labyrinth fahren</li>
+
+					</ul>
+				</section>
+				<section>
+					<h2>Unit 4</h2>
+					<ul>
+						<li>Einfache Ausdrücke und Variablen für Winkelberechnungen</li>
+						<li>Fahren im Viereck, Dreieck und Kreis</li>
+						<li>For-Schleife</li>
+						<li>Dokumentation lesen</li>
+						<li>Weitere Funktionen zur Motorsteuerung</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Unit 5</h2>
+					<ul>
+						<li>Übung For-Schleife und Variablen</li>
+						<li>Den Roboter tanzen lassen</li>
+						<li>Einen Tanz verstehen</li>
+						<li>Tanzschritte auf den Roboter übertragen</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Unit 6</h2>
+					<ul>
+						<li>Kennenlernen eines Sensors</li>
+						<li>Reagieren auf Klatschen</li>
+						<li>Einführung Programmablaufplan</li>
+						<li>Funktionen in Python</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Unit 7</h2>
+					<ul>
+						<li>Hindernisserkennung</li>
+						<li>Entscheidungsfindung und Ereignisbasierter Programmablauf</li>
+						<li>Design, Implementierung und Testen</li>
+						<li>Wettbewerb: Welcher Roboter fährt am schnellsten durchs Labyrinth?</li>
+					</ul>
+				</section>
+			-->
+			</section>
+			<section>
+				<h2>2.2. Livedemo</h2>
+
+
+			</section>
+			<section data-background-iframe="edpy.html" data-background-interactive>
+
+			</section>
+			<section>
+				<h2>2.2. Livedemo</h2>
+				<video data-autoplay data-src="img/edisonDance.mp4" width="50%"></video>
+
+			</section>
+
+			<section>
+				<section>
+					<h1>3. Evaluation</h1>
+					<ul>
+						<li>12. Klasse</li>
+						<li>Berufliches Gymnasium Technik</li>
+						<li>9 Schüler*innen</li>
+						<li>16-23 Jahre alt</li>
+					</ul>
+					<aside class="notes">
+						Bessere MINT Bildung als allgemeinbildene Schule
+						Keine Programmierstunden bisher
+						Laut Curiculum erst im zweiten Halbjahr Klasse 12
+					</aside>
+				</section>
+				<section>
+					<h1>3. Evaluation</h1>
+					Ablauf<br>
+					<ol>
+						<li>Vortest</li>
+						<li>Unterrichtsstunden mit Robotern</li>
+						<li>Nachtest</li>
+					</ol>
+				</section>
+				<section>
+					<h2>3.1. Callystotest</h2>
+					<ul>
+						<li>"Callysto Computational Thinking test"</li>
+						<li>frei nutzbar</li>
+						<li>deutsche Übersetzung</li>
+						<li>leichte Anpassungen</li>
+						<li>ca. 20 Minuten</li>
+					</ul>
+					<aside class="notes">
+						Canadische Studie, begleitet ein Projekt für Schulen
+						frei nutzbar für Forschungszwecke
+						"Standardtest" für Computational Thinking
+						Anpassungen für Fokus auf CT
+					</aside>
+				</section>
+				<section>
+					<h2>3.1. Callystotest</h2>
+					<ul>
+						<li>Teil 1 - Aussagen bewerten</li>
+						<ul>
+							<li>Umgang mit Technik</li>
+							<li>Lösen komplexer Probleme</li>
+							<li>Arbeiten mit Code</li>
+							<li>Nutzung von CT</li>
+							<li>Vorkenntnisse Programmierung</li>
+
+						</ul>
+					</ul>
+					<img src="img/aussagen.PNG" width="50%">
+					<aside class="notes">
+						Stimmt gar nicht - Stimmt nicht - Stimmt - Stimmt voll und ganz
+
+					</aside>
+				</section>
+				<section style="display:grid; grid-template-columns: 70% 30%;">
+					<h2>3.1. Callystotest</h2>
+					<ul style="grid-column: 1;">
+						<li>Teil 2 - Abfrage algorithmischer Fähigkeiten</li>
+						<ul>
+							<li>Einfache Abläufe</li>
+							<li>Verzweigungen</li>
+							<li>Schleifen</li>
+							<li>Feedback</li>
+						</ul>
+					</ul>
+					<img src="img/testp2.png" width="40%" style="grid-column:2">
+					<aside class="notes">
+						Single-Choice
+						Antwortmöglichkeiten als Programmabläufe in Blocksprache
+						Feedback 1-10
+					</aside>
+				</section>
+				<section>
+					<h2>3.2. Ergebnisse - Vortest T1</h2>
+					<img src="img/netzdiagram.svg">
+					<aside class="notes">
+						<ul>
+							<li>Umgang mit Technik:</li>
+							<ul>
+								<li>Alle mögen Technik</li>
+								<li>Umfeld fragt nach Hilfe bzgl. technischer Geräte</li>
+							</ul>
+							<li>Lösen komplexer Probleme:</li>
+							<ul>
+								<li>Schüler können komplexe Probleme lösen</li>
+								<li>aber nicht unbedingt die Schritte erklären</li>
+							</ul>
+
+							<li>Arbeiten mit Code:</li>
+							<ul>
+								<li>7: Programmieren macht keinen Spaß</li>
+								<li>Alle 9: frustriert wenn Fehler im Programm auftauchen</li>
+								<li>Aber Ehrgeiz, Fehler zu finden, eigentständig beheben</li>
+							</ul>
+							<li>Nutzung von CT</li>
+							<ul>
+								<li>Mehrzahl 5/9 begeistert, CT anzuwenden</li>
+							</ul>
+
+							<li>Vorkenntnisse:</li>
+							<ul>
+								<li>6/9 Schülern haben Vorkenntnisse</li>
+								<li> (Arduino, Legoroboter)</li>
+							</ul>
+						</ul>
+					</aside>
+				</section>
+				<section>
+					<h2>3.2. Ergebnisse - Vortest T2</h2>
+					<img src="img/boxplotPart2-removebg-preview.png">
+					<aside class="notes">
+						50% 8 oder 9 richtige Antworten von 11
+						Minimum 7
+						Maximum 10/11
+						Feedback 7/10 Durchschnitt
+					</aside>
+				</section>
+				<section>
+					<h2>3.2. Ergebnisse - während der Durchführung</h2>
+					<img src="img/edisonSumo.jpg" width="40%">
+					<img src="img/edisonFight.jpg" width="31%">
+					<aside class="notes">
+						Hohe Motivation
+						Sehr engagierte Arbeit mit Robotern und Arbeitsblättern
+						viele Ideen selber ausprobiert
+						Roboter gegeneinander antreten lassen
+						nicht geplant, aber keine Störung der Einheiten
+						Im Gegenteil, spielerisches fördert Lernprozess und Austausch
+						Alle Gruppen eigenständige Rückkehr zu Einheiten
+					</aside>
+				</section>
+				<section>
+					<h2>3.2. Ergebnisse - Nachtest T1</h2>
+					<img src="img/netzdiagram.svg">
+					<aside class="notes">
+						<ul>
+							<li>Umgang mit Technik:</li>
+							<ul>
+								<li>Alle mögen Technik</li>
+								<li>Umfeld fragt nicht mehr nach Hilfe bzgl. technischer Geräte</li>
+							</ul>
+							<li>Lösen komplexer Probleme:</li>
+							<ul>
+								<li>Schüler können komplexe Probleme lösen</li>
+								<li>und die Schritte erklären</li>
+							</ul>
+
+							<li>Arbeiten mit Code:</li>
+							<ul>
+								<li>6/9: Programmieren macht Spaß!</li>
+								<li>Alle 9: frustriert wenn Fehler im Programm auftauchen</li>
+								<li>Aber Ehrgeiz, Fehler zu finden, eigentständig beheben</li>
+							</ul>
+							<li>Nutzung von CT</li>
+							<ul>
+								<li>8/9 begeistert, CT anzuwenden</li>
+							</ul>
+							<li>Vorkenntnisse: wurden nicht abgefragt</li>
+						</ul>
+					</aside>
+				</section>
+				<section>
+					<h2>3.2. Ergebnisse - Nachtest T2</h2>
+					<img src="img/boxplotPart2-removebg-preview.png">
+					<aside class="notes">
+						50% 7 bis 9 Punkte, Median 8
+						Minimum 7
+						Maximum 11/11 (Ein Schüler)
+						Feedback 7/10
+					</aside>
+				</section>
+				<section>
+					<h2>3.3. Diskussion</h2>
+					<content style="display: grid; grid-template-columns: auto auto;">
+						<ul style="grid-column: 1; list-style:none">
+							<li>⇧ gesteigertes Interesse</li>
+							<li>⇧ gesteigerte Motivation</li>
+						</ul>
+						<img src="img/netzdiagram.svg" style="grid-column: 2;">
+					</content>
+
+					<aside class="notes">
+						sichtbar in Cluster
+						Lösen komplexer Probleme
+						Arbeiten mit Code
+						Nutzung von CT
+
+						cluster Nutzung von Technik:
+						negative Entwicklung
+						deckt Zeitraum mit Beginn vor der Studie ab
+						Eine einzelne Frage geht ins negative
+						wenig TN
+						weitere Untersuchung
+					</aside>
+				</section>
+				<section>
+					<h2>3.3. Diskussion</h2>
+					<ul>
+						<li>negative Entwicklung bei CT-Kompetenzen</li>
+						<li>Entwicklung in einer Aufgabe sichtbar</li>
+						<li>notwendige Anpassung der Aufgabe</li>
+						<li>Doppelte Wertung</li>
+					</ul>
+				</section>
+				<section>
+					<h2>3.3. Diskussion</h2>
+					<img src="img/unlearning.svg">
+				</section>
+			</section>
+			<section>
+				<h1>4. Fazit</h1>
+				<ul>
+					<li>Keine sichtbaren Verbesserungen in CT-Kompetenzen</li>
+					<li>Aber erhöhtes Interesse an CT</li>
+					<li>Robotereinsatz im Unterricht lohnt sich auf jeden Fall!</li>
+					<li>Ergebnisse nicht allgemeingültig</li>
+					<li>Aber Indiz für Erfolg</li>
+					<li>Aber: Nur Roboter machen keinen besseren Unterricht</li>
+				</ul>
+				<aside class="notes">
+					Am besten mehr Stunden
+					Sehr lebhafte Stunden, eigenständiges Arbeiten
+					Programmieren "zum anfassen"
+					Gutes Unterrichtsmaterial notwendig
+					Material vom Hersteller bietet guten Ansatz für Anpassungen in der Zukunft
+				</aside>
+			</section>
+			<section>
+				<h1>Danke!</h1>
+				für eure Aufmerksamkeit!
+				...und an Holger Buchmann und seine Klasse an der BBS Burgdorf!
+			</section>
+			<section>
+				<section>
+					<h1>Anhang</h1>
+				</section>
+				<section data-auto-animate>
+					<h2>Cluster "Umgang mit Technik"</h2>
+
+
+					<style type="text/css">
+						.tg {
+							border-collapse: collapse;
+							border-spacing: 0;
+						}
+
+						.tg td {
+							border-color: black;
+							border-style: solid;
+							border-width: 1px;
+							font-family: Arial, sans-serif;
+							font-size: 14px;
+							overflow: hidden;
+							padding: 10px 5px;
+							word-break: normal;
+						}
+
+						.tg th {
+							border-color: black;
+							border-style: solid;
+							border-width: 1px;
+							font-family: Arial, sans-serif;
+							font-size: 14px;
+							font-weight: normal;
+							overflow: hidden;
+							padding: 10px 5px;
+							word-break: normal;
+						}
+
+						.tg .tg-baqh {
+							text-align: center;
+							vertical-align: top
+						}
+
+						.tg .tg-0lax {
+							text-align: left;
+							vertical-align: top
+						}
+					</style>
+					<div>
+						<table class="tg" style="grid-column: 1;align-self: start;">
+							<thead>
+								<tr>
+									<th class="tg-0lax"> </th>
+									<th class="tg-baqh">Vortest</th>
+									<th class="tg-baqh">Nachtest</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="tg-0lax">Ich benutze gerne Technik
+									</td>
+									<td class="tg-baqh">++</td>
+									<td class="tg-baqh">++</td>
+								</tr>
+								<tr>
+									<td class="tg-0lax">Ich finde es einfach, neue Technologien zu
+										nutzen</td>
+									<td class="tg-baqh">+</td>
+									<td class="tg-baqh">+</td>
+								</tr>
+								<tr>
+									<td class="tg-0lax">Ich bin zuversichtlich, dass ich meinen
+										Computer <br>selbst reparieren kann, wenn er nicht
+										funktioniert</td>
+									<td class="tg-baqh">-</td>
+									<td class="tg-baqh">-</td>
+								</tr>
+								<tr style="border: 1px solid black">
+									<td class="tg-0lax">Die Leute bitten mich um Hilfe mit ihrem
+										Computer</td>
+									<td class="tg-baqh">+</td>
+									<td class="tg-baqh">-&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+
+
+					</div>
+				</section>
+				<section data-auto-animate>
+					<h2>Cluster "Umgang mit Technik"</h2>
+
+
+
+					<div style="display: grid;grid-template-columns: auto 3vh auto;">
+						<table class="tg" style="grid-column: 1;align-self: start;">
+							<thead>
+								<tr>
+									<th class="tg-0lax"> </th>
+									<th class="tg-baqh">Vortest</th>
+									<th class="tg-baqh">Nachtest</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="tg-0lax">Ich benutze gerne Technik
+									</td>
+									<td class="tg-baqh">++</td>
+									<td class="tg-baqh">++</td>
+								</tr>
+								<tr>
+									<td class="tg-0lax">Ich finde es einfach, neue Technologien zu
+										nutzen</td>
+									<td class="tg-baqh">+</td>
+									<td class="tg-baqh">+</td>
+								</tr>
+								<tr>
+									<td class="tg-0lax">Ich bin zuversichtlich, dass ich meinen
+										Computer <br>selbst reparieren kann, wenn er nicht
+										funktioniert</td>
+									<td class="tg-baqh">-</td>
+									<td class="tg-baqh">-</td>
+								</tr>
+								<tr style="border: 1px solid black">
+									<td class="tg-0lax">Die Leute bitten mich um Hilfe mit ihrem
+										Computer</td>
+									<td class="tg-baqh">+</td>
+									<td class="tg-baqh">-&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						<img src="img/LeuteComputer.png" style="grid-column: 3;">
+
+					</div>
+				</section>
+			</section>
+			<!---
+			<section class="hidden">
+				<h2>Quellen</h2>
+				https://meetedison.com/wp-content/uploads/2017/09/meet-edison-v2.png
+			</section>
+		-->
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+			slideNumber: "c/t",
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+		Reveal.configure({
+			keyboard: {
+				39: 'next',
+				37: 'prev',
+				87: 'up',
+				65: 'left',
+
+				68: 'right'
+			}
+		});
+	</script>
+</body>
+
+</html>

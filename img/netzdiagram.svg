@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" height="500" width="800" xml:space="preserve" id="svg2" version="1.1">
+	<metadata id="metadata8">
+		<RDF>
+			<Work rdf:about="">
+				<format>
+					image/svg+xml
+				</format>
+				<type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+			</Work>
+		</RDF>
+	</metadata>
+	<g transform="matrix(1.3333333,0,0,-1.3333333,-80,650)" id="g10">
+		<g transform="scale(0.1)" id="g12">
+			<path id="path24" style="fill:none;stroke:#111111;stroke-width:1.40999997;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="m 3520.6,3580.8 521,-521 m 0,0 -521,-521.1 m 0,0 -521.1,521.1 m 0,0 521.1,521 m 0,521.1 1042.1,-1042.1 m 0,0 -1042.1,-1043.5 m 0,0 -1043.5,1043.5 m 0,0 1043.5,1042.1 m 0,521.4 1563.5,-1563.5 m 0,0 -1563.5,-1564.4 m 0,0 -1564.3,1564.4 m 0,0 1564.3,1563.5" />
+			<path id="path26" style="fill:none;stroke:#111111;stroke-width:1.40999997;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="m 3520.6,3059.8 v 1563.5 m 0,-1563.5 h 1563.5 m -1563.5,0 V 1495.4 m 0,1564.4 H 1956.3 m 1564.3,0 v 1563.5" />
+			<path id="path28" style="fill:none;stroke:#254487;stroke-width:26.68000031;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="M 2998.9,3059.8 3520.6,4102 4302.1,3059.8 3520.6,2538.1 2998.9,3059.8" />
+			<path id="path30" style="fill:none;stroke:#ef3620;stroke-width:26.68000031;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="m 2477.6,3059.8 1043,781.5 1042.2,-781.5 -1042.2,-782.4 -1043,782.4" />
+			<g transform="scale(10)" id="g32">
+				<text id="text42" style="font-variant:normal;font-weight:normal;font-size:11.71199989px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(1,0,0,-1,332.45,301.44)">
+					<tspan id="tspan34" y="0" x="0 3.9000959" style="font-weight:bold">
+						--
+					</tspan>
+					<tspan id="tspan36" y="-52.1301" x="0" style="font-weight:bold">
+						-
+					</tspan>
+					<tspan id="tspan38" y="-104.2801" x="0" style="font-weight:bold">
+						+
+					</tspan>
+					<tspan id="tspan40" y="-156.4102" x="0 6.839808" style="font-weight:bold">
+						++
+					</tspan>
+				</text>
+			</g>
+			<g id="g44">
+				<g clip-path="url(#clipPath50)" id="g46">
+					<g transform="scale(10)" id="g52">
+						<text id="text56" style="font-variant:normal;font-weight:bold;font-size:11.73600006px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(1,0,0,-1,295.61,471.77)">
+							Umgang mit Technik
+						</text>
+					</g>
+				</g>
+			</g>
+			<g transform="scale(10)" id="g58">
+				<text id="text64" style="font-variant:normal;font-weight:bold;font-size:11.71199989px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(1,0,0,-1,514.78,308.74)">
+					<tspan id="tspan60" y="0" x="0 7.1909928 14.382133 20.894005 27.347332 34.538372 37.794308 44.259354 51.450348 61.862316 69.076843 72.332779 78.797874 85.309746 91.763077 96.272263">
+						Lösen komplexer
+					</tspan>
+					<tspan id="tspan62" y="13.5598" x="21.6 29.376894 33.886086 41.077175 48.268169 51.524105 58.035976 68.447945">
+						Probleme
+					</tspan>
+				</text>
+			</g>
+			<g id="g66">
+				<g clip-path="url(#clipPath72)" id="g68">
+					<g transform="scale(10)" id="g74">
+						<text id="text78" style="font-variant:normal;font-weight:bold;font-size:11.73600006px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(1,0,0,-1,301.54,132.19)">
+							<tspan id="tspan76" y="0" x="0 8.0391884 12.545898 19.716595 26.24181 29.469238 33.377327 39.902542 47.073238 50.746563 61.179867 64.442474 68.350563 71.613174 80.086563 87.257263 94.463066">
+								Arbeiten mit Code
+							</tspan>
+						</text>
+					</g>
+				</g>
+			</g>
+			<g transform="scale(10)" id="g80">
+				<text id="text84" style="font-variant:normal;font-weight:bold;font-size:11.71199989px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(1,0,0,-1,99.1922,301.97)">
+					<tspan id="tspan82" y="0" x="0 8.4560642 15.65891 19.605722 25.520315 32.711357 39.902401 47.093552 50.208885 56.849651 64.040695 71.231735 74.347168 82.80323">
+						Nutzung von CT
+					</tspan>
+				</text>
+			</g>
+			<path id="path86" style="fill:none;stroke:#254487;stroke-width:26.68000031;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="m 5164.6,3976.5 h 225.9" />
+			<g transform="scale(10)" id="g88">
+				<text id="text92" style="font-variant:normal;font-weight:bold;font-size:11.71199989px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(1,0,0,-1,541.51,393.5)">
+					<tspan id="tspan90" y="0" x="0 6.6406808 13.831771 18.340961 25.532101 32.043972">
+						vorher
+					</tspan>
+				</text>
+			</g>
+			<path id="path94" style="fill:none;stroke:#ef3620;stroke-width:26.68000031;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" d="m 5164.6,3800.1 h 225.9" />
+			<g transform="scale(10)" id="g96">
+				<text id="text100" style="font-variant:normal;font-weight:bold;font-size:11.71199989px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(1,0,0,-1,541.51,375.86)">
+					<tspan id="tspan98" y="0" x="0 7.1909928 13.702865 20.214737 27.37077 34.585297 41.097168">
+						nachher
+					</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>
